@@ -159,8 +159,8 @@ modelnew.save("face_mask_vgg.h5")
 
 
 # In[5]:
-
-
+"""
+#To detect the mask live using webcam
 from keras.preprocessing import image
 from keras.models import load_model
 import numpy as np
@@ -191,5 +191,5 @@ while True:
         if cv2.waitKey(10) == 13:
             break
 cap.release()        
-cv2.destroyAllWindows()
+cv2.destroyAllWindows() """
 
